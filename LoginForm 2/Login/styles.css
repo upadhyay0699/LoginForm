@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+body{margin: 0;padding: 0;box-sizing: border-box;font-family: "Poppins", sans-serif;}
+.wrapper{background-image: url("./Assets/Background.png"); width: 100%; height: 100%; }
+.submain{width: 100%; border:  1px solid black; margin: 0;}
+.mainwrapper{width: 80%; height: 800px;  margin:10em auto; display: flex;justify-content: space-between;  }
+.left{width: 50%; }
+.right{width: 50%; }
+.imgmascot{position: relative;}
+.form{width: 70%; height: 570px;  margin:8rem auto; border-radius: 20px; box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14); background-color: transparent; border: 1px solid skyblue; background-color: hsla(0, 0%, 66%, 0.164); position: relative;}
+.content{box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);height: 150px;border: 1px solid skyblue; border-radius: 20px;background-color: #a8a8a838; position: absolute; bottom: 78px; width: 35%;}
+.content p{text-align: center;font-size: 15px; color: aqua; }
+.formlog img{position: absolute;left: 18%; top: -49px;}
+.loginwrapper{width: 90%; margin:9rem auto;  height: 450px; }
+.loginbutton{border: 1px solid skyblue; display: flex; width: 90%;height: 45px; margin: auto; border-radius: 20px;background-color: rgba(168, 168, 168, 0.012); margin-top: 30px;}
+.loginbutton button{height: 45px; font-size: 20px;color: aqua;font-weight: 600; }
+.loginbutton .login{width: 45%; border-radius: 20px;background-color:#9e9e9e0a; border: none;}
+.loginbutton .register{width: 55%; border-radius: 20px; border: none; background-color: #9e9e9e0a; color: black;}
+.inputfeild input{width: 90%; height: 40px; margin:20px auto; display: block;  border-left: none;background-color: transparent; border-right: none;border-top: none;}
+.mg-20{margin-top: 50px !important;}
+.buttonRegister button{width: 90%; display: block;margin:50px auto; height: 45px;background-color: aqua;color: black;font-size: 20px;font-weight: 600; border: none;border-radius: 20px;}
